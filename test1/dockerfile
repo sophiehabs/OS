@@ -1,0 +1,15 @@
+# ------------------------------------------------------------------------------
+# # Dockerfile to build basic Oracle Linux container images
+# # Based on Oracle Linux 7 - Slim
+# # ------------------------------------------------------------------------------
+#
+# # Set the base image to Oracle Linux 7 - Slim
+FROM oraclelinux:7-slim
+#
+# # File Author / Maintainer
+# # Use LABEL rather than deprecated MAINTAINER
+# # MAINTAINER Tim Hall (tim@oracle-base.com)
+LABEL maintainer="tim@oracle-base.com"
+# # ------------------------------------------------------------------------------
+# # End
+#
